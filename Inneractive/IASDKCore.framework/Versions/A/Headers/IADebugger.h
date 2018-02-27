@@ -10,6 +10,8 @@
 
 #import "IAInterfaceBuilder.h"
 
+static NSNotificationName _Nonnull kIADebuggerDidChangeRequestSettingsNotification = @"kIADebuggerDidChangeRequestSettingsNotification";
+
 @protocol IADebuggerBuilder <NSObject>
 
 @required
@@ -17,6 +19,7 @@
 @property (nonatomic, copy, nullable) NSString *server;
 @property (nonatomic, copy, nullable) NSString *database;
 @property (nonatomic, copy, nullable) NSString *mockResponsePath;
+@property (nonatomic, copy, nullable) NSString *VPAIDPlayerURLString;
 
 @end
 

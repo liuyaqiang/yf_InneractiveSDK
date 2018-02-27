@@ -25,12 +25,6 @@ typedef void (^IAAdSpotAdResponseBlock)(IAAdSpot * _Nullable adSpot, IAAdModel *
 @property (nonatomic, copy, nonnull) IAAdRequest *adRequest;
 @property (nonatomic, copy, nonnull) IAMediation *mediationType;
 
-/**
- *  @brief Ad refresh in seconds.
- *  @discussion Currently is enabled only for MRAID banner/rect. Min value is 5; if is 0, disables the refresh.
- */
-@property (nonatomic) NSTimeInterval adRefreshInterval;
-
 - (void)addSupportedUnitController:(IAUnitController * _Nonnull)supportedUnitController;
 
 @end

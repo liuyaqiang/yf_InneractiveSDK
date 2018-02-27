@@ -10,7 +10,7 @@
 
 static const CGFloat kIADefaultIPhoneBannerWidth = 320;
 static const CGFloat kIADefaultIPhoneBannerHeight = 50;
-static const CGFloat kIADefaultIPadBannerWidth = 720;
+static const CGFloat kIADefaultIPadBannerWidth = 728;
 static const CGFloat kIADefaultIPadBannerHeight = 90;
 static const CGFloat kIADefaultRectWidth = 300;
 static const CGFloat kIADefaultRectHeight = 250;

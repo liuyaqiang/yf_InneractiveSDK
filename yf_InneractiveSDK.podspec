@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
 s.name             = "yf_InneractiveSDK"
-s.version          = "7.04"
+s.version          = "7.06"
 s.summary          = "yf_InneractiveSDK"
 
 s.description      = <<-DESC
@@ -18,6 +18,7 @@ s.platform     = :ios, '8.0'
 #s.requires_arc = true
 
 s.source           = { :git => "https://github.com/liuyaqiang/yf_InneractiveSDK.git", :tag => "#{s.version}" }
+  s.resource     = 'Inneractive/IASDKResources.bundle'
  s.vendored_frameworks = 'Inneractive/IASDKCore.framework','Inneractive/IASDKMRAID.framework','Inneractive/IASDKResources.framework'
 s.xcconfig = { 'OTHER_LDFLAGS' => '-ObjC' }
 s.frameworks = 'UIKit', 'AVFoundation', 'Foundation', 'CoreMedia', 'CoreLocation'

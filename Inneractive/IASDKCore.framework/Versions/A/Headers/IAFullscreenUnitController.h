@@ -40,4 +40,6 @@
  */
 - (void)showAdAnimated:(BOOL)flag completion:(void (^ _Nullable)(void))completion;
 
+- (void)removeAd;
+
 @end
