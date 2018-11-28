@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
 s.name             = "yf_InneractiveSDK"
-s.version          = "7.0.6"
+s.version          = "7.1.1"
 s.summary          = "yf_InneractiveSDK"
 
 s.description      = <<-DESC
