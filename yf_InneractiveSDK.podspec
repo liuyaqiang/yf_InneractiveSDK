@@ -22,7 +22,7 @@ s.source           = { :git => "https://github.com/liuyaqiang/yf_InneractiveSDK.
 
  s.vendored_frameworks = 'Inneractive/IASDKCore.framework','Inneractive/IASDKMRAID.framework','Inneractive/IASDKVideo.framework','Inneractive/IASDKNative.framework'
 
-s.xcconfig = { 'OTHER_LDFLAGS' => '-ObjC' }
-s.frameworks = 'UIKit', 'AVFoundation', 'Foundation', 'CoreMedia', 'CoreLocation', 'CoreTelephony', 'SystemConfiguration', 'StoreKit', 'MediaPlayer', 'CFNetwork', 'AdSupport', 'ImageIO', 'WebKit', 'AdSupport', 'MobileCoreServices'
+s.xcconfig = { 'OTHER_LDFLAGS' => '-ObjC -lxml2'}
+s.frameworks = 'UIKit', 'AVFoundation', 'Foundation', 'CoreMedia', 'CoreLocation', 'CoreTelephony', 'SystemConfiguration', 'StoreKit', 'MediaPlayer', 'CFNetwork', 'AdSupport', 'ImageIO', 'WebKit', 'AdSupport', 'MobileCoreServices', 'CoreVideo'
 
 end
